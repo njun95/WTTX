@@ -40,6 +40,9 @@ $_SESSION['eNodeBsubcarrier']='';
    $_SESSION['thermalNoise_up'] = '';
   $_SESSION['inputDuplexMode'] ='';
 */
+$_SESSION['typesite'] = "trisect";
+$_SESSION['inputmorphology'] ="URBAN";
+
 if (isset($_POST['VALIDATE_Coverage'])){
 /*COVEERAGE PARAMETERS*/
   $_SESSION['eNodeBTpower']=$_POST['eNodeBTpower'];
